@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>javascript calisma 3</title>
+</head>
+<body>
+<p>yasini gir ve butona bas</p>
+
+<input id="yas" value="18" />
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var yas, voteable;
+    yas = document.getElementById("yas").value;
+    voteable = (yas < 18) ? "cok genc":"yasi tutuyor";
+    document.getElementById("demo").innerHTML = voteable + " Oy kullanmak icin.";
+}
+</script>
+</body>
+</html>
