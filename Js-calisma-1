@@ -1,0 +1,26 @@
+<html>
+<body>
+<button onclick="displayDate()">;
+<script type="text/javascript">
+//example function
+function toCelcius(fahrenheit) {
+	return(5/9) * (fahrenheit-32);
+}
+document.getElementById('demo').innerHTML = toCelcius(77);
+//objects
+var richard = {
+	type = "Human";
+	sex = "Male";
+	age = "17";
+	eyecolor = "black";
+};
+function myFunction() {
+	var carName = "Volvo";
+}
+function displayDate() {
+	document.getElementById("demo").innerHTML = Date();
+}
+</script>
+<p id="demo"></p>
+</body>
+</html>
