@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<h2> donguler konusu </h2>
+<h2>good guys</h2>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+var good_guys = ["Richard hendricks","Gifoyle","Dinesh","Erlich","Big Head"]
+var text = "";
+var i;
+for (i = 0; i < good_guys.length; i++) {
+	text += good_guys[i] + "<br>";
+}
+document.getElementById('demo').innerHTML = text;
+</script>
+</body>
+</html>
